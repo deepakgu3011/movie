@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Welcome to Our Film Website!</h1>
+
+  <h2>Available Movies:</h2>
+
+  <ul>
+    <li *ngFor="let movie of movies">
+      <strong>{{ movie.title }}</strong> - Directed by {{ movie.director }}
+    </li>
+  </ul>
+</div>
