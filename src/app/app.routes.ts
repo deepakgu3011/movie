@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import path from 'path';
 import { Component } from '@angular/core';
 import { PanchayatComponent } from './Webseries/panchayat/panchayat.component';
+import { MirzapurComponent } from './Webseries/mirzapur/mirzapur.component';
 
 export const routes: Routes = [
   {path :'', component:HomeComponent},
@@ -16,7 +17,8 @@ export const routes: Routes = [
   {
     path: 'webseries',
        children: [
-      { path: 'panchayat', component: PanchayatComponent }
+      { path: 'panchayat', component: PanchayatComponent },
+      { path: 'mirzapur', component: MirzapurComponent }
     ]
   },
   { path: '**', component: PageNotFoundComponentComponent },
