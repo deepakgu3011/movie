@@ -3,6 +3,8 @@ nav {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  position:sticky;
+  top:0px;
 }
 
 nav a {

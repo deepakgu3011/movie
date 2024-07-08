@@ -12,5 +12,5 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Welcome';
+  title = 'FilmiDuniya';
 }

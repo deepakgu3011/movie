@@ -1,5 +1,5 @@
 .container {
-  max-width: 800px;
+  max-width: 100%;
   margin: 20px auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -11,6 +11,7 @@
 h1 {
   text-align: center;
   margin-bottom: 20px;
+  color:blue;
 }
 
 ul {
@@ -18,6 +19,36 @@ ul {
   padding: 0;
 }
 
-li {
-  margin-bottom: 10px;
+.movie-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.movie-item img {
+  width: 20rem;
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.movie-details {
+  flex: 1;
+}
+#title{
+  color:blue;
+}
+
+@media screen and (min-width: 150px) and (max-width: 650px) {
+  .movie-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .movie-item img {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
