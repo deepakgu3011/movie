@@ -36,6 +36,15 @@ export class MirzapurComponent {
       image:'https://th.bing.com/th/id/OIP.ZQ7MxmnoYdolsZnhOM6P8QHaEK?w=303&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7',
       description:'Guddu survives the attack on himself and the failure weakens Madhuri’s position in public. Sharad approaches Madhuri about an alliance since they have a common enemy. Shatrugan Tyagi lives as his brother Bharat, but maintaining the facade is sometimes difficult for him. Kaleen Bhaiya finally regains consciousness and Shatrugan sets a trap for Golu and captures her but doesn’t tell anyone. Golu’s disappearance lights a fire in Guddu and he incites open violence against Sharad and the other bosses. Sharad tries to make a deal with Lala earlier, but Shabnam convinces her father to stick with Guddu.',
       url:'https://cloaking.link/MirzapurS3',
+    },
+    {
+      id:4,
+      name:'Mirzapur 3 episode wise',
+      Director:'Karan Anshuman and Gurmeet Singh',
+      Genre:'Indian Hindi-language action crime thriller television series ',
+      image:'https://th.bing.com/th/id/OIP.ZQ7MxmnoYdolsZnhOM6P8QHaEK?w=303&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7',
+      description:'Mirzapur 3 episode wise',
+      url:'https://gplinks.co/66JP7',
     }
   ]
 }

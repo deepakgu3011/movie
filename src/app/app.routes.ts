@@ -5,7 +5,7 @@ import { PageNotFoundComponentComponent } from './page-not-found-component/page-
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { HomeComponent } from './home/home.component';
 import path from 'path';
-import { Component } from '@angular/core';
+import { MadgaonComponent } from './madgaon/madgaon.component';
 import { PanchayatComponent } from './Webseries/panchayat/panchayat.component';
 import { MirzapurComponent } from './Webseries/mirzapur/mirzapur.component';
 
@@ -18,6 +18,14 @@ export const routes: Routes = [
     path: 'webseries',
        children: [
       { path: 'panchayat', component: PanchayatComponent },
+      { path: 'mirzapur', component: MirzapurComponent }
+    ]
+  },
+  {
+    path: 'movies',
+       children: [
+      {path :'', component:HomeComponent},
+      { path: 'Madgaon', component: MadgaonComponent },
       { path: 'mirzapur', component: MirzapurComponent }
     ]
   },
